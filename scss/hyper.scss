@@ -1,0 +1,41 @@
+@import "customize";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$color-1: #56a7ea;
+
+body {
+//    background-color: #333;
+}
+
+.container {
+    max-width: 780px !important;
+}
+
+.logo {
+    width: 160px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    opacity: 0;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.dark-background {
+    h1, h2, p {
+//        color: $white;
+        color: #111;
+    }
+}
