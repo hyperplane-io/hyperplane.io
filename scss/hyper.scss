@@ -1,24 +1,38 @@
 @import "customize";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-$color-1: #56a7ea;
-
-body {
-//    background-color: #333;
+.stripe {
+    width: 100%;
+    height: 4px;
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
 }
 
 .container {
     max-width: 780px !important;
+    margin-bottom: 30px;
 }
 
-.logo {
-    width: 160px;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    opacity: 0;
+.logo-row {
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    .icon {
+        font-size: 28px;
+        vertical-align: -2px;
+        margin-right: 3px;
+    }
+    
+    .logo-text {
+        font-size: 32px;
+        text-transform: uppercase;
+    }
 }
 
 h1 {
+    padding: 50px 0;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    font-size: 44px;
     font-weight: 600;
 }
 
@@ -35,7 +49,15 @@ p {
 
 .dark-background {
     h1, h2, p {
-//        color: $white;
         color: #111;
     }
+}
+
+.footer-row {
+    padding-top: 20px;
+    border-top: 1px dotted #eee;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: #666;
 }
