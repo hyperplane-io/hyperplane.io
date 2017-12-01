@@ -6008,6 +6008,10 @@ a.text-dark:focus, a.text-dark:hover {
     font-size: 32px;
     text-transform: uppercase; }
 
+a:hover {
+  text-decoration: none;
+  background: aliceblue; }
+
 h1 {
   padding: 50px 0;
   border-top: 1px dotted #ccc;
